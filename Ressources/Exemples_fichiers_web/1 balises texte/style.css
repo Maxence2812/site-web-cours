@@ -1,0 +1,37 @@
+h1,p
+{
+	color : blue ; /* les titres 1 et les paragraphes seront en bleu */
+}
+
+em
+{
+	color : red ; /* les textes importants seront en rouge */
+}
+
+.imageflottante
+{
+    float : left ;
+}
+
+p
+{
+width : 70%;
+min-width : 200px ;
+}
+
+nav
+{
+display : inline-block ;
+width : 150px ;
+border : 1px solid black ;
+vertical-align : middle ;
+}
+section
+{
+display : inline-block ;
+border : 1px solid blue ;
+width : 400px ;
+vertical-align : middle;
+overflow:auto;
+margin-left:30px;
+}

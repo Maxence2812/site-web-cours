@@ -1,0 +1,72 @@
+body
+{
+	background-image:url("images/ciel.jpg");
+	background-attachment : scroll ;
+	background-repeat : repeat;
+}
+
+h1
+{
+	color : yellow ; /* les titres de niveau 1  seront en jaune... */
+	border : 5px yellow outset; /*...avec bordure en relief...*/
+	border-radius : 20px ; /*...et coins arrondis*/
+	background-color:rgba(255 , 0, 0, 0.5);
+}
+
+.introduction
+{
+	color : white; /* les pragraphes de type introduction seront en vert */
+	font-size : 20px;
+	font-weight:bold;
+	box-shadow : 6px 6px 6px white;
+
+}
+
+.definition
+{
+	font-style : italic;
+}
+
+h1
+{
+	font-family : Verdana, Impact , " Arial Black ", Arial , serif;
+}
+
+em
+{
+	color : red ;
+}
+
+p
+{
+ 	font-size : 1.8em;
+	text-align:justify;
+}
+
+.imageBleue
+{
+        float : left ;
+}
+
+.imageSmiley
+{
+    float : left ;
+	opacity : 0.2;
+}
+		
+.dessous
+{
+    clear : both ;
+	font-size : 2.2em;
+	font-family : Verdana, Impact , " Arial Black ", Arial , serif ;
+}
+
+#division
+{
+	width:200px;
+}
+
+#dernierspan
+{
+	background-color:yellow;
+}
